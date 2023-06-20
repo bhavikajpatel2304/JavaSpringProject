@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 
 const CONSTANT = require("../utils/constant");
-const baseUrl = CONSTANT.BASE_URL;
+const baseUrl = "http://localhost:8080";
 
 export const recipeApi = createApi({
     reducerPath: `recipeApi`,
